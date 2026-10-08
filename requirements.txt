@@ -1,10 +1,30 @@
+# Core
 langchain
 langchain-community
 langchain-groq
+langchain-huggingface
+langchain-text-splitters
+
+# Web scraping
 beautifulsoup4
 requests
-streamlit
-python-dotenv
-chromadb
-tiktoken
 lxml
+
+# Embeddings & ML (pinned for Python 3.12 compatibility)
+numpy<2
+scipy<1.13
+torch==2.2.2
+sentence-transformers
+
+# Vector store
+chromadb
+
+# LLM
+groq
+
+# UI
+streamlit
+
+# Utils
+python-dotenv
+tiktoken
