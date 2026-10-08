@@ -1,10 +1,12 @@
-# Environment variables
+# Environment variables (IMPORTANT!)
 .env
+.env.local
 
 # Virtual environment
 venv/
 env/
 .venv/
+ENV/
 
 # Vector DB
 db/
@@ -15,12 +17,48 @@ chroma_db/
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib60/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/*.pdf
+data/*.txt
+data/*.csv
